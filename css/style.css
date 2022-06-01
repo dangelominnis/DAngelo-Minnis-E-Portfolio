@@ -438,8 +438,8 @@ body {
     border-radius: 100%;
 }
 
-.task-skill-icon .fab {
-    font-size: 2rem;
+.task-skill-icon .fa {
+    font-size: 1.5rem;
     color: var(--color-white);
 }
 
