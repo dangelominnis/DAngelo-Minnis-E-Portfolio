@@ -1,0 +1,76 @@
+/* Buttons */
+.btn-orange {
+  background: var(--color-orange);
+  color: var(--color-white);
+  font-weight: 600;
+  font-size: 1.25rem;
+  border-radius: 32px;
+  padding: 1.25rem 2rem;
+  cursor: pointer;
+  transition: .3s ease;
+  text-decoration: none;
+  letter-spacing: .5px;
+}
+
+.btn-orange:hover {
+  background: transparent;
+  color: var(--color-orange);
+  border: 2px solid var(--color-orange);
+}
+
+.btn-white-transparent {
+  background: transparent;
+  color: var(--color-white);
+  border: 2px solid var(--color-white);
+  font-weight: 600;
+  font-size: 1.25rem;
+  border-radius: 32px;
+  padding: 1.25rem 2rem;
+  cursor: pointer;
+  transition: .3s ease;
+  text-decoration: none;
+  letter-spacing: .5px;
+}
+
+.btn-white-transparent:hover {
+  background: var(--color-white);
+  color: var(--color-blue);
+}
+
+.btn-black-transparent {
+  background: transparent;
+  color: var(--color-black);
+  border: 2px solid var(--color-black);
+  font-weight: 600;
+  font-size: 1.25rem;
+  border-radius: 32px;
+  padding: 1.25rem 2rem;
+  cursor: pointer;
+  transition: .3s ease;
+  text-decoration: none;
+  letter-spacing: .5px;
+}
+
+.btn-black-transparent:hover {
+  background: var(--color-black);
+  color: var(--color-blue);
+}
+
+.btn-transparent {
+  background: transparent;
+  color: var(--color-black);
+  font-weight: 600;
+  font-size: 1.25rem;
+  border-radius: 32px;
+  padding: 1.25rem 2rem;
+  cursor: pointer;
+  transition: .3s ease;
+  text-decoration: none;
+  letter-spacing: .5px;
+}
+
+.btn-transparent:hover {
+  background: transparent;
+  border: 2px solid var(--color-black);
+  color: var(--color-black);
+}

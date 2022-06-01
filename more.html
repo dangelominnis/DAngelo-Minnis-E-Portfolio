@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------------SEO-Optimization---------------- -->
+    <meta name=“description” content="Logo Genius, a Dallas graphic designer in Dallas, Texas.  Offer logo, SEO, social media management, Dallas web design, and web development." />
+    <meta name="keywords" content="Logo Genius, Logo, Genius, Graphic Design, Web Design">
+    <meta name="author" content="Logo Genius">
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="DogpcsIsv8MfOJNDSMVMBvUm1QvIUQ4CYFODmIn3haI"/>
+    <!-- ----------------SEO-Optimization---------------- -->
+
+    <title>D'Angelo Minnis | E-Portfolio</title>
+    <!-- Google Fonts -->
+    <!-- Ubuntu -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- Google Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b1974bca5b.js" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-box">
+                <div class="banner-icon">
+                    <img src="img/dlo-logo-02.png" alt="">
+                </div>
+                <h1>Miscellaneous Content</h1>
+                <div class="banner-button-box">
+                    <a href="#" class="btn-orange">Contact Me</a>
+                </div>
+
+                <!-- <div class="header-title">
+                    <h1>Hey there, I'm D'Angelo</h1>
+                    <a href="#">dangelominnis@gmail.com</a>
+                    <div class="header-detail">
+                        <h4>10</h4>
+                        <h5>Years<br>Experience</h5>
+                    </div>
+                </div>
+                <div class="header-info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, officia.</p>
+                    <img src="img/dlo-logo-02.png" alt="">
+                    <h3>Certification<br>Certification<br>Certification</h3>
+                </div> -->
+
+            </div>
+        </div>
+    </header>
+    <!-- Bar -->
+    <div class="bar">
+        <div class="bar__content u-centered">
+            <img class="bar__logo" src="img/dlo-logo-02.png" alt="logo image">
+            <input type="checkbox" id="inpNavToggle">
+            <label class="bar__nav-toggle" for="inpNavToggle">
+                <i class="material-icons">menu</i>
+            </label>
+            <nav class="nav">
+                <a class="nav__link" href="index.html">Home</a>
+                <a class="nav__link" href="personal.html">Personal</a>
+                <a class="nav__link" href="job.html">Job Search</a>
+                <a class="nav__link" href="research.html">Career Research</a>
+                <a class="nav__link" href="articles.html">Career Articles</a>
+                <a class="nav__link" href="professional.html">Professional</a>
+                <a class="nav__link nav__link_orange" href="more.html">More</a>
+                <a href="mailto:dangelominnis@gmail.com" class="btn-white-transparent">dangelominnis@gmail.com</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Header Javascript -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observer = new IntersectionObserver(entries => {
+                document.querySelector(".bar").classList.toggle("bar--bg", entries[0].intersectionRatio < 1)
+            }, {
+                threshold: 0.1
+            });
+            
+            observer.observe(document.querySelector(".header"));
+        });
+        </script>
+
+<!-- Task Section -->
+<section class="task">
+    <div class="container">
+        <div class="task-box">
+            <div class="task-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task-info">
+                <h2>Assignment Name</h2>
+                <h4>Personal/Professional Assignment</h4>
+                <p>Lorem ipsum dolor sit amet <span>consectetur adipisicing</span> elit. Voluptate numquam, animi ad molestias debitis repellendus? Ab repudiandae repellat distinctio similique iste. Eos inventore natus rerum?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate numquam, <span>animi ad molestias</span> debitis repellendus? Ab repudiandae repellat distinctio similique iste. Eos inventore natus rerum?</p>
+                <div class="task-skill-box">
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Productivity</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Communication</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Leadership</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task-button-box">
+                    <div class="task-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task-button">
+                        <a href="#" class="btn-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task 2 Section -->
+<section class="task2">
+    <div class="container">
+        <div class="task2-box">
+            <div class="task2-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task2-info">
+                <h2>Assignment Name</h2>
+                <h4>Personal/Professional Assignment</h4>
+                <p>Lorem ipsum dolor sit amet <span>consectetur adipisicing</span> elit. Voluptate numquam, animi ad molestias debitis repellendus? Ab repudiandae repellat distinctio similique iste. Eos inventore natus rerum?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate numquam, <span>animi ad molestias</span> debitis repellendus? Ab repudiandae repellat distinctio similique iste. Eos inventore natus rerum?</p>
+                <div class="task2-skill-box">
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Productivity</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Communication</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Leadership</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task2-button-box">
+                    <div class="task2-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task2-button">
+                        <a href="#" class="btn-white-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task Section -->
+<section class="task">
+    <div class="container">
+        <div class="task-box">
+            <div class="task-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task-info">
+                <h2>Assignment Name</h2>
+                <h4>Personal/Professional Assignment</h4>
+                <p>Lorem ipsum dolor sit amet <span>consectetur adipisicing</span> elit. Voluptate numquam, animi ad molestias debitis repellendus? Ab repudiandae repellat distinctio similique iste. Eos inventore natus rerum?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate numquam, <span>animi ad molestias</span> debitis repellendus? Ab repudiandae repellat distinctio similique iste. Eos inventore natus rerum?</p>
+                <div class="task-skill-box">
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Productivity</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Communication</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Leadership</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task-button-box">
+                    <div class="task-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task-button">
+                        <a href="#" class="btn-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task 2 Section -->
+<section class="task2">
+    <div class="container">
+        <div class="task2-box">
+            <div class="task2-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task2-info">
+                <h2>Assignment Name</h2>
+                <h4>Personal/Professional Assignment</h4>
+                <p>Lorem ipsum dolor sit amet <span>consectetur adipisicing</span> elit. Voluptate numquam, animi ad molestias debitis repellendus? Ab repudiandae repellat distinctio similique iste. Eos inventore natus rerum?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate numquam, <span>animi ad molestias</span> debitis repellendus? Ab repudiandae repellat distinctio similique iste. Eos inventore natus rerum?</p>
+                <div class="task2-skill-box">
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Productivity</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Communication</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Leadership</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task2-button-box">
+                    <div class="task2-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task2-button">
+                        <a href="#" class="btn-white-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="contact-box">
+            <h2>Contact me with any questions</h2>
+            <div class="contact-form">
+                <form name="contact" method="POST" data-netlify="true"><input type="hidden" name="form-name" value="contact">
+                    <div class="contact-item">
+                        <input type="email" name="Email Address" id="" class="input" placeholder="enter your email address" required>
+                        <input type="submit" value="submit" class="btn-submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<section class="footer">
+    <div class="container">
+        <div class="footer-box">
+            <div class="footer-main">
+                <img src="img/dlo-logo-01.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nostrum porro eos corrupti, laborum natus dolorem? Velit nesciunt temporibus consequuntur.</p>
+                <div class="footer-socials">
+                    <div class="footer-socials-icon">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="footer-socials-icon">
+                        <a href="#"><i class="fab fa-instagram-square"></i></a>
+                    </div>
+                    <div class="footer-socials-icon">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-info">
+                <img src="img/site-info-text-01.png" alt="">
+                <div class="footer-link-box">
+                    <div class="footer-link">
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="personal.html">Personal</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="professional.html">Professional</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="research.html">Career Research</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="articles.html">Career Articles</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="job.html">Job Search</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="more.html">More</a>
+                    </div>
+                </div>
+                <div class="footer-profession">
+                    <div class="footer-profession-icon">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="footer-profession-icon">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="footer-profession-icon">
+                        <a href="#"><i class="fab fa-staylinked"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <h4>@ 2022 Copyright by D'Angelo Minnis</h4>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

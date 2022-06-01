@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------------SEO-Optimization---------------- -->
+    <meta name=“description” content="Logo Genius, a Dallas graphic designer in Dallas, Texas.  Offer logo, SEO, social media management, Dallas web design, and web development." />
+    <meta name="keywords" content="Logo Genius, Logo, Genius, Graphic Design, Web Design">
+    <meta name="author" content="Logo Genius">
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="DogpcsIsv8MfOJNDSMVMBvUm1QvIUQ4CYFODmIn3haI"/>
+    <!-- ----------------SEO-Optimization---------------- -->
+
+    <title>D'Angelo Minnis | E-Portfolio</title>
+    <!-- Google Fonts -->
+    <!-- Ubuntu -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- Google Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b1974bca5b.js" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-box">
+                <div class="banner-icon">
+                    <img src="img/dlo-logo-02.png" alt="">
+                </div>
+                <h1>Career Research Related Documents</h1>
+                <div class="banner-button-box">
+                    <a href="#1" class="btn-orange">View Assignments</a>
+                </div>
+
+                <!-- <div class="header-title">
+                    <h1>Hey there, I'm D'Angelo</h1>
+                    <a href="#">dangelominnis@gmail.com</a>
+                    <div class="header-detail">
+                        <h4>10</h4>
+                        <h5>Years<br>Experience</h5>
+                    </div>
+                </div>
+                <div class="header-info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, officia.</p>
+                    <img src="img/dlo-logo-02.png" alt="">
+                    <h3>Certification<br>Certification<br>Certification</h3>
+                </div> -->
+
+            </div>
+        </div>
+    </header>
+    <!-- Bar -->
+    <div class="bar">
+        <div class="bar__content u-centered">
+            <img class="bar__logo" src="img/dlo-logo-02.png" alt="logo image">
+            <input type="checkbox" id="inpNavToggle">
+            <label class="bar__nav-toggle" for="inpNavToggle">
+                <i class="material-icons">menu</i>
+            </label>
+            <nav class="nav">
+                <a class="nav__link" href="index.html">Home</a>
+                <a class="nav__link" href="personal.html">Personal</a>
+                <a class="nav__link" href="job.html">Job Search</a>
+                <a class="nav__link nav__link_orange" href="research.html">Career Research</a>
+                <a class="nav__link" href="articles.html">Career Articles</a>
+                <a class="nav__link" href="professional.html">Professional</a>
+                <a class="nav__link" href="more.html">More</a>
+                <a href="mailto:dangelominnis@gmail.com" class="btn-white-transparent">dangelominnis@gmail.com</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Header Javascript -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observer = new IntersectionObserver(entries => {
+                document.querySelector(".bar").classList.toggle("bar--bg", entries[0].intersectionRatio < 1)
+            }, {
+                threshold: 0.1
+            });
+            
+            observer.observe(document.querySelector(".header"));
+        });
+        </script>
+
+<!-- Task Section -->
+<section class="task" id="1">
+    <div class="container">
+        <div class="task-box">
+            <div class="task-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task-info">
+                <h2>Career Research CRIIR</h2>
+                <h4>Career Research</h4>
+                <p>For this assignment, students must research a particular career of interest, interview someone in that field (a great way to begin networking) and write a brief report about their findings. </p>
+                <div class="task-skill-box">
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Communication</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Research</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Networking</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task-button-box">
+                    <div class="task-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task-button">
+                        <a href="#2" class="btn-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task 2 Section -->
+<section class="task2" id="2">
+    <div class="container">
+        <div class="task2-box">
+            <div class="task2-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task2-info">
+                <h2>CRIIR Email Interview Request</h2>
+                <h4>Career Research</h4>
+                <p>An email showing interest in interviewing a possible person in a field of interest of yours. Send an email that is respectful and professional in hopes of landing an interview.</p>
+                <div class="task2-skill-box">
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Communication</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Researching</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Networking</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task2-button-box">
+                    <div class="task2-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task2-button">
+                        <a href="#3" class="btn-white-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task Section -->
+<section class="task" id="3">
+    <div class="container">
+        <div class="task-box">
+            <div class="task-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task-info">
+                <h2>CRIIR Questions</h2>
+                <h4>Career Research</h4>
+                <p>post a copy of the proposed questions you plan to ask the professional you have chosen for this assignment. Include the following information:</p>
+                <p>1) Your Name/Interviewee's name 2) Company name 3) DATE of your scheduled interview 4) where or how this interview will take place. Then type your list of questions. </p>
+                <div class="task-skill-box">
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Researching</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Communication</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Networking</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task-button-box">
+                    <div class="task-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task-button">
+                        <a href="#4" class="btn-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task 2 Section -->
+<section class="task2" id="4">
+    <div class="container">
+        <div class="task2-box">
+            <div class="task2-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task2-info">
+                <h2>CRIIR Thank You Letter</h2>
+                <h4>Career Research</h4>
+                <p>You should write an email thank you note (sample on Canvas) or a hand-written note to the person you interviewed.</p>
+                <p>As with any thank-you letter or note, it should be written immediately after the interview or within 24 hours.</p>
+                <div class="task2-skill-box">
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Reflection</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Communication</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Follow-Up</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task2-button-box">
+                    <div class="task2-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task2-button">
+                        <a href="#5" class="btn-white-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task Section -->
+<section class="task" id="5">
+    <div class="container">
+        <div class="task-box">
+            <div class="task-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task-info">
+                <h2>Interviewee Evaluation Of You</h2>
+                <h4>Career Research</h4>
+                <p>Please let your interviewee know that you will email them a feedback form and what it is for. Interviewee to email the evaluation back to professor for grade.</p>
+                <div class="task-skill-box">
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Networking</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Communication</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Follow-Up</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task-button-box">
+                    <div class="task-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task-button">
+                        <a href="#6" class="btn-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task 2 Section -->
+<section class="task2" id="6">
+    <div class="container">
+        <div class="task2-box">
+            <div class="task2-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task2-info">
+                <h2>Self-Evaluation</h2>
+                <h4>Career Research</h4>
+                <p>Please respond honestly about how well you thought the informational interview went with a professional in your chosen field.</p>
+                <p>The information will provide you some insights into your own strengths and weaknesses when it comes to these types of interviews; they are vital to the job search process and professional networking.</p>
+                <div class="task2-skill-box">
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Self-Awareness</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Reflection</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Evaluation</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task2-button-box">
+                    <div class="task2-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task2-button">
+                        <a href="#5" class="btn-white-transparent">Previous Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="contact-box">
+            <h2>Contact me with any questions</h2>
+            <div class="contact-form">
+                <form name="contact" method="POST" data-netlify="true"><input type="hidden" name="form-name" value="contact">
+                    <div class="contact-item">
+                        <input type="email" name="Email Address" id="" class="input" placeholder="enter your email address" required>
+                        <input type="submit" value="submit" class="btn-submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<section class="footer">
+    <div class="container">
+        <div class="footer-box">
+            <div class="footer-main">
+                <img src="img/dlo-logo-01.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nostrum porro eos corrupti, laborum natus dolorem? Velit nesciunt temporibus consequuntur.</p>
+                <div class="footer-socials">
+                    <div class="footer-socials-icon">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="footer-socials-icon">
+                        <a href="#"><i class="fab fa-instagram-square"></i></a>
+                    </div>
+                    <div class="footer-socials-icon">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-info">
+                <img src="img/site-info-text-01.png" alt="">
+                <div class="footer-link-box">
+                    <div class="footer-link">
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="personal.html">Personal</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="professional.html">Professional</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="research.html">Career Research</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="articles.html">Career Articles</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="job.html">Job Search</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="more.html">More</a>
+                    </div>
+                </div>
+                <div class="footer-profession">
+                    <div class="footer-profession-icon">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="footer-profession-icon">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="footer-profession-icon">
+                        <a href="#"><i class="fab fa-staylinked"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <h4>@ 2022 Copyright by D'Angelo Minnis</h4>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

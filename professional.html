@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------------SEO-Optimization---------------- -->
+    <meta name=“description” content="Logo Genius, a Dallas graphic designer in Dallas, Texas.  Offer logo, SEO, social media management, Dallas web design, and web development." />
+    <meta name="keywords" content="Logo Genius, Logo, Genius, Graphic Design, Web Design">
+    <meta name="author" content="Logo Genius">
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="DogpcsIsv8MfOJNDSMVMBvUm1QvIUQ4CYFODmIn3haI"/>
+    <!-- ----------------SEO-Optimization---------------- -->
+
+    <title>D'Angelo Minnis | E-Portfolio</title>
+    <!-- Google Fonts -->
+    <!-- Ubuntu -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- Google Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b1974bca5b.js" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-box">
+                <div class="banner-icon">
+                    <img src="img/dlo-logo-02.png" alt="">
+                </div>
+                <h1>Professional Assessments</h1>
+                <div class="banner-button-box">
+                    <a href="#1" class="btn-orange">View Assignments</a>
+                </div>
+
+                <!-- <div class="header-title">
+                    <h1>Hey there, I'm D'Angelo</h1>
+                    <a href="#">dangelominnis@gmail.com</a>
+                    <div class="header-detail">
+                        <h4>10</h4>
+                        <h5>Years<br>Experience</h5>
+                    </div>
+                </div>
+                <div class="header-info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, officia.</p>
+                    <img src="img/dlo-logo-02.png" alt="">
+                    <h3>Certification<br>Certification<br>Certification</h3>
+                </div> -->
+
+            </div>
+        </div>
+    </header>
+    <!-- Bar -->
+    <div class="bar">
+        <div class="bar__content u-centered">
+            <img class="bar__logo" src="img/dlo-logo-02.png" alt="logo image">
+            <input type="checkbox" id="inpNavToggle">
+            <label class="bar__nav-toggle" for="inpNavToggle">
+                <i class="material-icons">menu</i>
+            </label>
+            <nav class="nav">
+                <a class="nav__link" href="index.html">Home</a>
+                <a class="nav__link" href="personal.html">Personal</a>
+                <a class="nav__link" href="job.html">Job Search</a>
+                <a class="nav__link" href="research.html">Career Research</a>
+                <a class="nav__link" href="articles.html">Career Articles</a>
+                <a class="nav__link nav__link_orange" href="professional.html">Professional</a>
+                <a class="nav__link" href="more.html">More</a>
+                <a href="mailto:dangelominnis@gmail.com" class="btn-white-transparent">dangelominnis@gmail.com</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Header Javascript -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observer = new IntersectionObserver(entries => {
+                document.querySelector(".bar").classList.toggle("bar--bg", entries[0].intersectionRatio < 1)
+            }, {
+                threshold: 0.1
+            });
+            
+            observer.observe(document.querySelector(".header"));
+        });
+        </script>
+
+<!-- Task Section -->
+<section class="task" id="1">
+    <div class="container">
+        <div class="task-box">
+            <div class="task-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task-info">
+                <h2>Getting to Know You & Hopes and Concerns</h2>
+                <h4>Professional Assessment</h4>
+                <p>Completing this form for my teacher so she could learn more about me and what I was looking for in this course.</p>
+                <p>Also, it helped her put me on a team that I worked with throughout the quarter and for my Workshop Presentation Team Assignment.</p>
+                <div class="task-skill-box">
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Self-Awareness</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Reflection</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Evaluation</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task-button-box">
+                    <div class="task-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task-button">
+                        <a href="#2" class="btn-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task 2 Section -->
+<section class="task2" id="2">
+    <div class="container">
+        <div class="task2-box">
+            <div class="task2-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task2-info">
+                <h2>First Impressions</h2>
+                <h4>Clifton Strengths</h4>
+                <p>First impressions are important. Take a few minutes to review your CliftonStrengths Signature Themes Report and answer the following five questions about your top five.</p>
+                <p>These questions serve as a starting point for your development and understanding of your CliftonStrengths themes.</p>
+                <div class="task2-skill-box">
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Reflection</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Evaluation</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Development</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task2-button-box">
+                    <div class="task2-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task2-button">
+                        <a href="#3" class="btn-white-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task Section -->
+<section class="task" id="3">
+    <div class="container">
+        <div class="task-box">
+            <div class="task-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task-info">
+                <h2>Best-Ever Team Experience</h2>
+                <h4>Clifton Strengths</h4>
+                <p>The goal of this assignment was to briefly explain your best-ever team experience. There are a series of questions that dive deeper into that experience that we were supposed to reflect on.</p>
+                <div class="task-skill-box">
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Reflection</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Teamwork</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Discipline</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task-button-box">
+                    <div class="task-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task-button">
+                        <a href="#4" class="btn-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task 2 Section -->
+<section class="task2" id="4">
+    <div class="container">
+        <div class="task2-box">
+            <div class="task2-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task2-info">
+                <h2>In Your Own Words</h2>
+                <h4>Clifton Strengths</h4>
+                <p>The goal of this assignment was to use your CliftonStrengths Signature Themes Report, and to read the description of each theme and highlight prhases that describe yourself.</p>
+                <p>Then we were supposed to define each theme in our own words, and identify one thing we liked most about the theme.</p>
+                <div class="task2-skill-box">
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Self-Awareness</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Reflection</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Evaluation</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task2-button-box">
+                    <div class="task2-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task2-button">
+                        <a href="#5" class="btn-white-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task Section -->
+<section class="task" id="5">
+    <div class="container">
+        <div class="task-box">
+            <div class="task-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task-info">
+                <h2>Expectations</h2>
+                <h4>Clifton Strengths</h4>
+                <p>Identify the five most important expectations of your role. Refer to your CliftonStrengths Signature Themes Report, and describe how your top five themes helps you meet each expectation.</p>
+                <div class="task-skill-box">
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Self-Awareness</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Reflection</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Evaluation</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task-button-box">
+                    <div class="task-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task-button">
+                        <a href="#6" class="btn-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task 2 Section -->
+<section class="task2" id="6">
+    <div class="container">
+        <div class="task2-box">
+            <div class="task2-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task2-info">
+                <h2>The Power Of Partnerships</h2>
+                <h4>Clifton Strengths</h4>
+                <p>Think about the work/assignment partners you have had and what strengths they brought to the partnership.</p>
+                <p>When we think about what makes others great partners, we can also contribute those same qualities to the work at hand.  Commit to contributing your best skills, talents, and abilities to all partnerships and you'll always succeed.</p>
+                <div class="task2-skill-box">
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Reflection</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Development</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Self-Awareness</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task2-button-box">
+                    <div class="task2-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task2-button">
+                        <a href="#7" class="btn-white-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task Section -->
+<section class="task" id="7">
+    <div class="container">
+        <div class="task-box">
+            <div class="task-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task-info">
+                <h2>How To Set A Strengths-Based Goal</h2>
+                <h4>Clifton Strengths</h4>
+                <p>The goal of this assignment was to go over the steps it takes to make a strengths-based goal.</p>
+                <p>The assignment then prompted us to make our own strengths-based goals in different areas of our lives and break those goals down.</p>
+                <div class="task-skill-box">
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Planning</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Development</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Goal-Setting</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task-button-box">
+                    <div class="task-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task-button">
+                        <a href="#8" class="btn-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task 2 Section -->
+<section class="task2" id="8">
+    <div class="container">
+        <div class="task2-box">
+            <div class="task2-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task2-info">
+                <h2>Shape Your Identity</h2>
+                <h4>Growth Mindset</h4>
+                <p>This assignment prompted us to answer a series of questions about our identity, who we want to become, and what behaviors and qualities will help shape us into that person.</p>
+                <div class="task2-skill-box">
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Self-Awareness</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Reflection</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Development</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task2-button-box">
+                    <div class="task2-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task2-button">
+                        <a href="#9" class="btn-white-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task Section -->
+<section class="task" id="9">
+    <div class="container">
+        <div class="task-box">
+            <div class="task-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task-info">
+                <h2>What Is Your Mindset?</h2>
+                <h4>Growth Mindset</h4>
+                <p>Go over a list of scenarios and highlight what options you think you would tend to think like most. This assignment helped with our thought processes in certain situations.</p>
+                <div class="task-skill-box">
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Self-Awareness</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Reflection</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Evaluation</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task-button-box">
+                    <div class="task-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task-button">
+                        <a href="#10" class="btn-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task 2 Section -->
+<section class="task2" id="10">
+    <div class="container">
+        <div class="task2-box">
+            <div class="task2-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task2-info">
+                <h2>Competing With Self</h2>
+                <h4>Growth Mindset</h4>
+                <p>This assignment prompts us to read over certain scenarios and answer how we would feel when being present in these certain scenarios.</p>
+                <p>Next, I was supposed to answer on what I could learn from those certain scenarios and my feelings towards them.</p>
+                <div class="task2-skill-box">
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Reflection</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Development</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Self-Awareness</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task2-button-box">
+                    <div class="task2-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task2-button">
+                        <a href="#11" class="btn-white-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task Section -->
+<section class="task" id="11">
+    <div class="container">
+        <div class="task-box">
+            <div class="task-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task-info">
+                <h2>Top Level Goal Setting</h2>
+                <h4>Growth Mindset</h4>
+                <p>Reflect upon your mindset and create top-level goals in the area of your work. Then reflect upon why that goal is important to you and the sacrifices you're willing to make in order to reach that goal.</p>
+                <div class="task-skill-box">
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Reflection</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Planning</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Goal-Setting</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task-button-box">
+                    <div class="task-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task-button">
+                        <a href="#12" class="btn-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task 2 Section -->
+<section class="task2" id="12">
+    <div class="container">
+        <div class="task2-box">
+            <div class="task2-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task2-info">
+                <h2>Short-Term vs. Long-Term Thinking</h2>
+                <h4>Growth Mindset</h4>
+                <p>Reflect upon certain problems you've faced in your life, write down your intial reaction and what you did in response to those problems, then reflect upon and write down what you should have done instead of your initial response.</p>
+                <div class="task2-skill-box">
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Self-Awareness</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Reflection</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Development</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task2-button-box">
+                    <div class="task2-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task2-button">
+                        <a href="#13" class="btn-white-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task Section -->
+<section class="task" id="13">
+    <div class="container">
+        <div class="task-box">
+            <div class="task-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task-info">
+                <h2>How Assertive Are You?</h2>
+                <h4>Self-Assessments</h4>
+                <p>Consider how assertive your own communications are by responding to each of the following situations. Avoid trying to give the “appropriate” response; instead, respond the way you would normally respond.</p>
+                <div class="task-skill-box">
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Self-Awareness</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Reflection</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Evaluation</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task-button-box">
+                    <div class="task-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task-button">
+                        <a href="#14" class="btn-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task 2 Section -->
+<section class="task2" id="14">
+    <div class="container">
+        <div class="task2-box">
+            <div class="task2-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task2-info">
+                <h2>Professional Etiquette</h2>
+                <h4>Self-Assessments</h4>
+                <p>The following quiz will help you understand your own professional etiquette. Answer each question thoughtfully, and then we will discuss the results. How can this knowledge help you become a better communicator?</p>
+                <p>Take the following quiz to see how many times you may have displayed less-than-professional etiquette in the workplace [or the classroom).</p>
+                <div class="task2-skill-box">
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Self-Awareness</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Reflection</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Evaluation</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task2-button-box">
+                    <div class="task2-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task2-button">
+                        <a href="#15" class="btn-white-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task Section -->
+<section class="task" id="15">
+    <div class="container">
+        <div class="task-box">
+            <div class="task-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task-info">
+                <h2>Cultural Intelligence</h2>
+                <h4>Self-Assessments</h4>
+                <p>Reflect upon the statements that describe different facets of cultural intelligence. After you identify your scores, add them up in order to find your true CQ strength.</p>
+                <div class="task-skill-box">
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Self-Awareness</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Development</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Evaluation</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task-button-box">
+                    <div class="task-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task-button">
+                        <a href="#16" class="btn-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task 2 Section -->
+<section class="task2" id="16">
+    <div class="container">
+        <div class="task2-box">
+            <div class="task2-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task2-info">
+                <h2>Conflict Management</h2>
+                <h4>Self-Assessments</h4>
+                <p>We each have our own way of dealing with conflict. The techniques we use are based on many variables such a our basic underlying temperament, our personality, our environment and where we are in our professional career. </p>
+                <p>Each statement below provides a strategy for dealing with a conflict. Rate each statement on a scale of 1 to 4 indicating how likely you are to use this strategy.</p>
+                <div class="task2-skill-box">
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Reflection</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Development</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Evaluation</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task2-button-box">
+                    <div class="task2-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task2-button">
+                        <a href="#17" class="btn-white-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task Section -->
+<section class="task" id="17">
+    <div class="container">
+        <div class="task-box">
+            <div class="task-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task-info">
+                <h2>Leadership Profile</h2>
+                <h4>Self-Assessments</h4>
+                <p>Complete and fill out the leadership profile for yourself that consists of qualities that make you a good leader, and qualities you need to develop in order to become a better leader.</p>
+                <p>List out the skills you need to attain to become a person of authority and their reasonings.</p>
+                <div class="task-skill-box">
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Reflection</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Communication</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Leadership</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task-button-box">
+                    <div class="task-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task-button">
+                        <a href="#18" class="btn-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task 2 Section -->
+<section class="task2" id="18">
+    <div class="container">
+        <div class="task2-box">
+            <div class="task2-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task2-info">
+                <h2>Listening Style</h2>
+                <h4>Self-Assessments</h4>
+                <p>Research has revealed that everyone has default styles of listening. To discover your listening tendencies, fill in the survey below. Use 1 as “strongly disagree” and 7 as “strongly agree.” The section(s) where you indicated the strongest agreement (5, 6, or 7) suggests your typica listening style(s).</p>
+                <div class="task2-skill-box">
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Listening</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Reflection</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Evaluation</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task2-button-box">
+                    <div class="task2-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task2-button">
+                        <a href="#19" class="btn-white-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task Section -->
+<section class="task" id="19">
+    <div class="container">
+        <div class="task-box">
+            <div class="task-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task-info">
+                <h2>What Type of Negotiator Are You?</h2>
+                <h4>Self-Assessments</h4>
+                <p>Circle the options that best fit you given the negotation situations you find yourself in. Add up all your answers to find out what type of negotiator you are.</p>
+                <div class="task-skill-box">
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Communication</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Evaluation</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task-skill-item">
+                        <div class="task-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task-skill-text">
+                            <h6>Development</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task-button-box">
+                    <div class="task-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task-button">
+                        <a href="#20" class="btn-transparent">Next Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Task 2 Section -->
+<section class="task2" id="20">
+    <div class="container">
+        <div class="task2-box">
+            <div class="task2-image">
+                <img src="img/assignment-sample.png" alt="">
+            </div>
+            <div class="task2-info">
+                <h2>The Four Tendencies Quiz</h2>
+                <h4>Self-Assessments</h4>
+                <p>Knowing our Tendency can help us set up situations in the ways that make it more likely that we’ll achieve our aims.</p>
+                <p>We can make better decisions, meet deadlines, meet our promises to ourselves, suffer less stress, and engage more deeply with others. This short, free Quiz poses questions meant to identify your Tendency.</p>
+                <div class="task2-skill-box">
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Self-Awareness</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Evaluation</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>
+                    <div class="task2-skill-item">
+                        <div class="task2-skill-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="task2-skill-text">
+                            <h6>Development</h6>
+                            <h5>Skill Learned</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="task2-button-box">
+                    <div class="task2-button">
+                        <a href="#" class="btn-orange">View Assignment PDF</a>
+                    </div>
+                    <div class="task2-button">
+                        <a href="#19" class="btn-white-transparent">Previous Assignment &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="contact-box">
+            <h2>Contact me with any questions</h2>
+            <div class="contact-form">
+                <form name="contact" method="POST" data-netlify="true"><input type="hidden" name="form-name" value="contact">
+                    <div class="contact-item">
+                        <input type="email" name="Email Address" id="" class="input" placeholder="enter your email address" required>
+                        <input type="submit" value="submit" class="btn-submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<section class="footer">
+    <div class="container">
+        <div class="footer-box">
+            <div class="footer-main">
+                <img src="img/dlo-logo-01.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nostrum porro eos corrupti, laborum natus dolorem? Velit nesciunt temporibus consequuntur.</p>
+                <div class="footer-socials">
+                    <div class="footer-socials-icon">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="footer-socials-icon">
+                        <a href="#"><i class="fab fa-instagram-square"></i></a>
+                    </div>
+                    <div class="footer-socials-icon">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-info">
+                <img src="img/site-info-text-01.png" alt="">
+                <div class="footer-link-box">
+                    <div class="footer-link">
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="personal.html">Personal</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="professional.html">Professional</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="research.html">Career Research</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="articles.html">Career Articles</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="job.html">Job Search</a>
+                    </div>
+                    <div class="footer-link">
+                        <a href="more.html">More</a>
+                    </div>
+                </div>
+                <div class="footer-profession">
+                    <div class="footer-profession-icon">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div class="footer-profession-icon">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="footer-profession-icon">
+                        <a href="#"><i class="fab fa-staylinked"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <h4>@ 2022 Copyright by D'Angelo Minnis</h4>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
