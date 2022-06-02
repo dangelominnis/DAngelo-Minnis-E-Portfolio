@@ -214,10 +214,7 @@ body {
 }
 
 .bar__nav-toggle i {
-    background-color: var(--color-secondary);
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
+    color: var(--color-white);
     font-size: 3rem;
 }
 
@@ -1255,21 +1252,11 @@ body {
     
     /* Header Section */
     .header {
-        height: 50vh;
+        height: 100vh;
     }
 
     .header-box {
         margin: 0 2rem;
-    }
-
-    .header-button {
-        padding-bottom: 4rem;
-    }
-
-    .header-text h1 {
-        font-size: 6rem;
-        text-align: center;
-        margin-bottom: 3rem;
     }
 
     .nav {
@@ -1277,79 +1264,44 @@ body {
     }
 
     .bar__nav-toggle i {
-        color: var(--color-dark-grey);
+        color: var(--color-white);
     }
 
     .nav__link {
         color: var(--color-dark-grey);
-        /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
-    }
-
-    .nav__link:nth-child(6) {
-        border-bottom: none;
     }
     
-    .nav .btn-purple {
-        margin: auto;
+    .nav .btn-white-transparent {
         text-align: center;
         margin-top: 2rem;
         padding: 12.5px 20px;
+        border: 2px solid var(--color-dark-grey);
+        color: var(--color-dark-grey);
     }
 
-    .nav .btn-transparent {
-        margin: auto;
-        text-align: center;
-        margin-top: .5rem;
-        padding: 12.5px 20px;
+    /* Me Section */
+    /* .me {
+        padding: 12rem 4rem;
+    } */
+
+    .me-box {
+
     }
 
-    /* Reviews Section */
-    .reviews {
-        height: 80vh;
-        padding: 4rem 4rem;
-    }
-    .reviews-box {
-        flex-direction: column;
-    }
-    
-    .reviews-textbox {
-        flex-direction: row;
-    }
-    
-    .reviews-card {
-        width: 32rem;
-        margin: 0 2rem 12rem 2rem;
+    .me-image img {
+        /* width: 300px; */
+        margin-bottom: 4rem;
     }
 
-    /* Web Section */
-    .web {
-        padding: 12rem 0rem;
+    /* Banner Section */
+    .banner2 {
+        height: 100vh;
+        /* padding: 0rem 4rem; */
     }
 
-    /* Footer Section */
-    .footer-container {
-        flex-direction: column;
-    }
-
-    .footer-box {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer-box-company {
-        margin-bottom: 2rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer-box-company p {
-        text-align: center;
-        padding-right: 12rem;
-        padding-left: 12rem;
+    .banner3 {
+        height: 100vh;
+        /* padding: 0rem 4rem; */
     }
 }
 
@@ -1358,27 +1310,52 @@ body {
     
     /* Header Section */
     .header {
-        height: 60vh;
+        height: 100vh;
     }
 
     .header-box {
-        margin: 0 4rem;
+        margin: 0 2rem;
     }
 
-    /* Reviews Section */
-    .reviews {
+    .bar__nav-toggle i {
+        color: var(--color-white);
+    }
+
+    .nav__link {
+        color: var(--color-dark-grey);
+    }
+    
+    .nav .btn-white-transparent {
+        text-align: center;
+        margin-top: 2rem;
+        padding: 12.5px 20px;
+        border: 2px solid var(--color-dark-grey);
+        color: var(--color-dark-grey);
+    }
+
+    /* Me Section */
+    /* .me {
+        padding: 12rem 4rem;
+    } */
+
+    .me-box {
+
+    }
+
+    .me-image img {
+        /* width: 300px; */
+        margin-bottom: 4rem;
+    }
+
+    /* Banner Section */
+    .banner2 {
         height: 100vh;
-        padding: 10rem 4rem;
+        /* padding: 0rem 4rem; */
     }
 
-    .reviews-textbox {
-        margin-bottom: 3rem;
-    }
-
-    .reviews-card {
-        width: 28rem;
-        margin: 0 2rem 8rem 2rem;
-        box-shadow: 0 .5rem .5rem rgb(153 153 153 / 15%);
+    .banner3 {
+        height: 100vh;
+        /* padding: 0rem 4rem; */
     }
 }
 
@@ -1387,37 +1364,11 @@ body {
 
     /* Header Section */
     .header {
-        height: 90vh;
+        height: 100vh;
     }
 
     .header-box {
         margin: 0 2rem;
-    }
-
-    .header-text h1 {
-        font-size: 4rem;
-        text-align: center;
-        margin-bottom: 3rem;
-    }
-
-    .header-text h4 {
-        text-align: center;
-    }
-
-    .header-image img {
-        width: 315px;
-    }
-
-    .header-item .input {
-        width: 30rem;
-        height: 5.5rem;
-        font-size: 1rem;
-    }
-
-    .header-item .btn-submit {
-        width: 12rem;
-        height: 5.5rem;
-        font-size: 1rem;
     }
 
     .nav {
@@ -1425,145 +1376,233 @@ body {
     }
 
     .bar__nav-toggle i {
-        color: var(--color-dark-grey);
+        color: var(--color-white);
     }
 
     .nav__link {
         color: var(--color-dark-grey);
-        /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
-    }
-
-    .nav__link:nth-child(6) {
-        border-bottom: none;
     }
     
-    .nav .btn-purple {
-        margin: auto;
+    .nav .btn-white-transparent {
         text-align: center;
         margin-top: 2rem;
         padding: 12.5px 20px;
+        border: 2px solid var(--color-dark-grey);
+        color: var(--color-dark-grey);
     }
 
-    .nav .btn-transparent {
-        margin: auto;
-        text-align: center;
-        margin-top: .5rem;
-        padding: 12.5px 20px;
+    /* About Section */
+    .about {
+        padding: 8rem 2rem;
     }
 
-    /* Web Section */
-    .web {
-        padding: 10rem 2rem;
-    }
-    .web-box {
-        padding: 0;
+    .about-container h5 {
+        padding: 0 0;
     }
 
-    .web-box p {
-        padding: 0;
+    .about-box {
+        padding-top: 6rem;
     }
 
-    /* Reviews Section */
-    .reviews {
-        height: auto;
-        padding: 10rem 4rem 10rem 4rem;
+    .about-item:nth-child(4) {
+        margin-bottom: 6rem;
     }
-    .reviews-box {
+
+    .about-item:nth-child(5) {
+        margin-bottom: 6rem;
+    }
+
+    /* Me Section */
+    .me {
+        padding: 12rem 4rem;
+    }
+
+    .me-box {
+
+    }
+
+    .me-image img {
+        width: 300px;
+        margin-bottom: 4rem;
+    }
+
+    .me-text {
+        justify-content: left;
+    }
+
+    .me-text p {
+
+    }
+
+    .me-button {
+        margin-bottom: 2rem;
+    }
+
+    /* Media Section */
+    .media {
+        padding: 8rem 4rem;
+    }
+
+    .media-box {
+        padding-bottom: 2rem;
+    }
+    
+    .media-icon {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .media-icon .fab {
+        font-size: 3rem;
+    }
+
+    /* Task Section */
+    .task {
+        padding: 8rem 4rem;
+    }
+
+    .task-box {
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+    }
+
+    .task-image img {
+        width: 250px;
+        margin-bottom: 4rem;
+    }
+
+    .task-info {
+        /* justify-content: center;
+        align-items: center;
+        text-align: left; */
+    }
+
+    .task-info h4 {
+        text-align: left;
+    }
+
+    .task-skill-box {
         flex-direction: column;
     }
 
-    .reviews-textbox {
+    .task-skill-item {
+        width: 26rem;
+    }
+
+    .task-skill-item:nth-child(2) {
+        margin: 0 0 3rem 0;
+    }
+
+    .task-button-box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .task-button:nth-child(1) {
+        margin-right: 0rem;
+        margin-bottom: 5rem;
+    }
+
+    /* Task 2 Section */
+    .task2 {
+        padding: 8rem 4rem;
+    }
+
+    .task2-box {
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+    }
+
+    .task2-image img {
+        width: 250px;
+        margin-bottom: 4rem;
+    }
+
+    .task2-info {
+        /* justify-content: center;
+        align-items: center;
+        text-align: left; */
+    }
+
+    .task2-info h4 {
+        text-align: left;
+    }
+
+    .task2-skill-box {
         flex-direction: column;
     }
 
-    .reviews-card {
-        width: 28rem;
-        margin: 0 2rem 8rem 2rem;
-        box-shadow: 0 .5rem .5rem rgb(153 153 153 / 15%);
+    .task2-skill-item {
+        width: 26rem;
     }
 
-    .reviews-box {
-        margin: 0 2rem;
+    .task2-skill-item:nth-child(2) {
+        margin: 0 0 3rem 0;
     }
 
-    .reviews-text h1 {
-        font-size: 4rem;
-        text-align: center;
-        margin-bottom: 3rem;
+    .task2-button-box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .reviews-text h4 {
-        text-align: center;
+    .task2-button:nth-child(1) {
+        margin-right: 0rem;
+        margin-bottom: 5rem;
     }
 
-    .reviews-image img {
-        width: 285px;
+    /* Banner Section */
+    .banner2 {
+        height: 140vh;
+        padding: 0rem 4rem;
     }
 
-    .reviews-item .input {
+    .banner3 {
+        height: 165vh;
+        padding: 0rem 4rem;
+    }
+
+    /* Contact Section */
+    .contact {
+        padding: 12rem 4rem;
+    }
+
+    .contact-item .input {
         width: 30rem;
-        height: 5.5rem;
-        font-size: 1rem;
     }
 
-    .reviews-item .btn-submit {
+    .contact-item .btn-submit {
         width: 12rem;
-        height: 5.5rem;
-        font-size: 1rem;
     }
 
     /* Footer Section */
-    .footer-container {
-        flex-direction: column;
+    .footer {
+        padding: 8rem 4rem 2rem 4rem;
     }
 
-    .footer-box {
-        justify-content: center;
-        align-items: center;
+    .footer-main {
+        padding-bottom: 1rem;
     }
-
-    .footer-box-company {
-        margin-bottom: 2rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer-box-company p {
-        text-align: center;
-        padding-right: 2rem;
-        padding-left: 2rem;
-    }
-
-    .footer-contact {
-        width: 33.5rem;
-        height: 50rem;
-        margin-bottom: 3rem;
-    }
-
-    .footer-map {
-        margin-bottom: 2rem;
-    }
-
-    .footer-map h3 {
-        margin-bottom: 1rem;
+    
+    .footer-main p {
+        padding-right: 0;
     }
 
     .footer-info {
-        margin-bottom: 2rem;
+        padding-right: 8rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 
-    .footer-info h3 {
-        margin-bottom: 1rem;
+    .footer-link-box {
+        align-items: flex-start;
     }
 
-    .footer-socials {
-        margin-bottom: 2rem;
+    .footer-copyright {
+        margin-top: 4rem;
     }
-
-    .footer-socials h3 {
-        margin-bottom: 1rem;
-    }
-
 }
