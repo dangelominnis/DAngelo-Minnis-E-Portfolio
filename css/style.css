@@ -1279,18 +1279,28 @@ body {
         color: var(--color-dark-grey);
     }
 
+    /* About Section */
+    .about-box {
+        justify-content: center;
+        align-items: center;
+    }
+
     /* Me Section */
-    /* .me {
-        padding: 12rem 4rem;
-    } */
-
-    .me-box {
-
+    .me {
+        padding: 12rem 0rem;
     }
 
     .me-image img {
         /* width: 300px; */
         margin-bottom: 4rem;
+    }
+
+    .me-text {
+        text-align: center;
+    }
+
+    .me-button {
+        margin-bottom: 1.5rem;
     }
 
     /* Banner Section */
@@ -1364,7 +1374,7 @@ body {
 
     /* Header Section */
     .header {
-        height: 100vh;
+        height: 120vh;
     }
 
     .header-box {
@@ -1417,21 +1427,9 @@ body {
         padding: 12rem 4rem;
     }
 
-    .me-box {
-
-    }
-
     .me-image img {
         width: 300px;
         margin-bottom: 4rem;
-    }
-
-    .me-text {
-        justify-content: left;
-    }
-
-    .me-text p {
-
     }
 
     .me-button {
@@ -1470,12 +1468,6 @@ body {
     .task-image img {
         width: 250px;
         margin-bottom: 4rem;
-    }
-
-    .task-info {
-        /* justify-content: center;
-        align-items: center;
-        text-align: left; */
     }
 
     .task-info h4 {
@@ -1519,12 +1511,6 @@ body {
     .task2-image img {
         width: 250px;
         margin-bottom: 4rem;
-    }
-
-    .task2-info {
-        /* justify-content: center;
-        align-items: center;
-        text-align: left; */
     }
 
     .task2-info h4 {
